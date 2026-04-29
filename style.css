@@ -1,4 +1,4 @@
-body {
+html {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	line-height: 1.5;
 }
@@ -45,6 +45,29 @@ ul ul {
 
 ol {
 	list-style-type: decimal-leading-zero;
+}
+
+a {
+	color: #006EAC;
+}
+
+a:visited {
+	color: #2A4758;
+}
+
+a:hover {
+	background-color: #006EAC;
+	color: white;
+}
+
+a:focus {
+	background-color: #AE053E;
+	color: white;
+}
+
+a:active {
+	background-color: black;
+	color: white;
 }
 
 .site-nav-list {
